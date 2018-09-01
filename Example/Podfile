@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ChenzookLocationNavigator_Example' do
+  pod 'ChenzookLocationNavigator', :path => '../'
+
+  target 'ChenzookLocationNavigator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

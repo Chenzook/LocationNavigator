@@ -1,0 +1,16 @@
+PODS:
+  - ChenzookLocationNavigator (0.1.0)
+
+DEPENDENCIES:
+  - ChenzookLocationNavigator (from `../`)
+
+EXTERNAL SOURCES:
+  ChenzookLocationNavigator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChenzookLocationNavigator: 1cfb9dbd0305b809cc64e44a801f20e8ef4fef82
+
+PODFILE CHECKSUM: 7b0008eff27d159fadb0637c281eab414eae92ea
+
+COCOAPODS: 1.5.3

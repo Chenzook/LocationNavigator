@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1161DE108052CC5AD16A7EFF20226910 /* Pods-ChenzookLocationNavigator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD704CB00C115E7BEDC2D6B2474413E /* Pods-ChenzookLocationNavigator_Tests-dummy.m */; };
+		11A9E22B752C04682FED5F698853478C /* Pods-ChenzookLocationNavigator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE1BE0BAEA77B8CE5C7075333104EEA /* Pods-ChenzookLocationNavigator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		140A2AC5F1B803AC77FA45231D3DD1CD /* Pods-ChenzookLocationNavigator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8925E09430367325D55A93E50A01A1F3 /* Pods-ChenzookLocationNavigator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1429C8C9F4CB1ED937162B6E8BC05A20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2A7594F820DF6C9000F752B2 /* AppleMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7594F720DF6C9000F752B2 /* AppleMaps.swift */; };
+		2A7594FB20DF76E500F752B2 /* Placemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7594FA20DF76E500F752B2 /* Placemark.swift */; };
+		2A7594FF20DF88CA00F752B2 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7594FE20DF88CA00F752B2 /* Navigator.swift */; };
+		2A75950120DF88F200F752B2 /* ChenzookLocationNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75950020DF88F200F752B2 /* ChenzookLocationNavigator.swift */; };
+		2A75950320DF8D5100F752B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7594F920DF6D1600F752B2 /* Images.xcassets */; };
+		2A75951020DFBFA800F752B2 /* Waze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75950C20DFBFA700F752B2 /* Waze.swift */; };
+		2A75951220DFBFA800F752B2 /* GoogleMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75950E20DFBFA700F752B2 /* GoogleMaps.swift */; };
+		2A75951320DFBFA800F752B2 /* MapsWithMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75950F20DFBFA700F752B2 /* MapsWithMe.swift */; };
+		2A75951A20DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75951820DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.swift */; };
+		2A75951B20DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A75951920DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.xib */; };
+		2A75951D20E0F5E000F752B2 /* MaskableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75951C20E0F5DF00F752B2 /* MaskableImageView.swift */; };
+		39DBBAE08F0F926B18A063FFFDF3FE21 /* NavigatorShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBDE08469535D5BE4888265184B2DF1 /* NavigatorShortcut.swift */; };
+		793FA51C5859029840203A627D2824D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		851971A8BEC0A5B8716B26B71D612C61 /* ChenzookLocationNavigator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F07696EC65A466E1ACC5766494AA54A6 /* ChenzookLocationNavigator-dummy.m */; };
+		8F91377E8B29CEFC99D20E0358CD367B /* ChenzookLocationNavigator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A21C1A0D266CCFFDCF30DB5D990344D9 /* ChenzookLocationNavigator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCA1E035613B9CCF1E0046A9F3F22041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C48FA720FB89EEA62FE842CA2D7138DB /* Pods-ChenzookLocationNavigator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C13A1E3BC1B5A9686DC2A138120ADD8 /* Pods-ChenzookLocationNavigator_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E87A43F77BA2F86305E8FEF07B3588E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A445BB22832C99B54A8B88933CB32D35;
+			remoteInfo = ChenzookLocationNavigator;
+		};
+		E4E3934D05A3A954B7ECC11A924992AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20A8FE273EC3921B3E9693F56A5962BE;
+			remoteInfo = "Pods-ChenzookLocationNavigator_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EFED18B3D10DA5A1B12B7297A804329 /* Pods-ChenzookLocationNavigator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChenzookLocationNavigator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		14736F0A453A697CF0AE1216AF2FF153 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2143B7DCE89923085668D0B2F19CE675 /* Pods-ChenzookLocationNavigator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChenzookLocationNavigator_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2947A8802AE90CB4861D4AB74FF4F561 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A7594F720DF6C9000F752B2 /* AppleMaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppleMaps.swift; path = ChenzookLocationNavigator/Classes/AppleMaps.swift; sourceTree = "<group>"; };
+		2A7594F920DF6D1600F752B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ChenzookLocationNavigator/Assets/Images.xcassets; sourceTree = "<group>"; };
+		2A7594FA20DF76E500F752B2 /* Placemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Placemark.swift; path = ChenzookLocationNavigator/Classes/Placemark.swift; sourceTree = "<group>"; };
+		2A7594FE20DF88CA00F752B2 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Navigator.swift; path = ChenzookLocationNavigator/Classes/Navigator.swift; sourceTree = "<group>"; };
+		2A75950020DF88F200F752B2 /* ChenzookLocationNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChenzookLocationNavigator.swift; path = ChenzookLocationNavigator/Classes/ChenzookLocationNavigator.swift; sourceTree = "<group>"; };
+		2A75950C20DFBFA700F752B2 /* Waze.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Waze.swift; path = ChenzookLocationNavigator/Classes/Waze.swift; sourceTree = "<group>"; };
+		2A75950E20DFBFA700F752B2 /* GoogleMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleMaps.swift; path = ChenzookLocationNavigator/Classes/GoogleMaps.swift; sourceTree = "<group>"; };
+		2A75950F20DFBFA700F752B2 /* MapsWithMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapsWithMe.swift; path = ChenzookLocationNavigator/Classes/MapsWithMe.swift; sourceTree = "<group>"; };
+		2A75951820DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigatorShortcutCollectionViewCell.swift; path = ChenzookLocationNavigator/Classes/NavigatorShortcutCollectionViewCell.swift; sourceTree = "<group>"; };
+		2A75951920DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NavigatorShortcutCollectionViewCell.xib; path = ChenzookLocationNavigator/Classes/NavigatorShortcutCollectionViewCell.xib; sourceTree = "<group>"; };
+		2A75951C20E0F5DF00F752B2 /* MaskableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MaskableImageView.swift; path = ChenzookLocationNavigator/Classes/MaskableImageView.swift; sourceTree = "<group>"; };
+		2C13A1E3BC1B5A9686DC2A138120ADD8 /* Pods-ChenzookLocationNavigator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChenzookLocationNavigator_Example-dummy.m"; sourceTree = "<group>"; };
+		302F8F89C3719536ECDE4A517F8A767B /* Pods-ChenzookLocationNavigator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChenzookLocationNavigator_Example-resources.sh"; sourceTree = "<group>"; };
+		39F9BC2057A7D3FD0F9E40580FE88B46 /* Pods-ChenzookLocationNavigator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChenzookLocationNavigator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3E03D7B6E24BE21EF48DF3DA20B3C96D /* ChenzookLocationNavigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChenzookLocationNavigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6968433A039F61B3B1B80947197F61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50CD01EF822DA2E2B9414DB205033D24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57044F5F04540806BB610999CE6A370F /* Pods-ChenzookLocationNavigator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChenzookLocationNavigator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A37EACC26551C13325E03BDD2D46547 /* Pods-ChenzookLocationNavigator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChenzookLocationNavigator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6667E82ABD387B83C1E81258E1EFCD6E /* ChenzookLocationNavigator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ChenzookLocationNavigator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6CE1BE0BAEA77B8CE5C7075333104EEA /* Pods-ChenzookLocationNavigator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChenzookLocationNavigator_Example-umbrella.h"; sourceTree = "<group>"; };
+		6F298023E931F6A521CB7D6B81483838 /* Pods-ChenzookLocationNavigator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChenzookLocationNavigator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F57C1AFE9FC237DA054AE40818BC7DA /* ChenzookLocationNavigator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChenzookLocationNavigator-prefix.pch"; sourceTree = "<group>"; };
+		7FB5A3BAD0740D0B2865B3A385EDD9B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84FCDC8C692A69A58660DA52B131268C /* ChenzookLocationNavigator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChenzookLocationNavigator.xcconfig; sourceTree = "<group>"; };
+		8925E09430367325D55A93E50A01A1F3 /* Pods-ChenzookLocationNavigator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChenzookLocationNavigator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8BFC0F7C6DEABB13D3804CD0711B84A5 /* ChenzookLocationNavigator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChenzookLocationNavigator.modulemap; sourceTree = "<group>"; };
+		8DD704CB00C115E7BEDC2D6B2474413E /* Pods-ChenzookLocationNavigator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChenzookLocationNavigator_Tests-dummy.m"; sourceTree = "<group>"; };
+		93589D8BBE785E331A0813212977A75B /* Pods-ChenzookLocationNavigator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChenzookLocationNavigator_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A21C1A0D266CCFFDCF30DB5D990344D9 /* ChenzookLocationNavigator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChenzookLocationNavigator-umbrella.h"; sourceTree = "<group>"; };
+		AEBDE08469535D5BE4888265184B2DF1 /* NavigatorShortcut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigatorShortcut.swift; path = ChenzookLocationNavigator/Classes/NavigatorShortcut.swift; sourceTree = "<group>"; };
+		B3B771F46AB5FCB0E317E91EA4DA541A /* Pods-ChenzookLocationNavigator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChenzookLocationNavigator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BBC10C276A4F16342C3F23B31DE28A34 /* Pods-ChenzookLocationNavigator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChenzookLocationNavigator_Tests-resources.sh"; sourceTree = "<group>"; };
+		C60404C89A4014DB8CA7BA0B6DA3C84B /* Pods-ChenzookLocationNavigator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChenzookLocationNavigator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C75A2D0CD32DBF010D3E4D4B306FC356 /* Pods-ChenzookLocationNavigator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChenzookLocationNavigator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D249A4D4B0934B0417B06281F30D4084 /* Pods-ChenzookLocationNavigator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChenzookLocationNavigator_Tests.modulemap"; sourceTree = "<group>"; };
+		D71AF57A1496AAB3AFEB0D861A399467 /* Pods-ChenzookLocationNavigator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChenzookLocationNavigator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DAADC56327E5258A751D56DE43F7A05B /* Pods_ChenzookLocationNavigator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChenzookLocationNavigator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07696EC65A466E1ACC5766494AA54A6 /* ChenzookLocationNavigator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChenzookLocationNavigator-dummy.m"; sourceTree = "<group>"; };
+		FC3490CEA371A6CBE52961EEE12584AB /* Pods_ChenzookLocationNavigator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChenzookLocationNavigator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		215BDF83CFE643BCEF040AFEBB25C5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA1E035613B9CCF1E0046A9F3F22041 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598EA212C260DC36B9446E1C6591D1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793FA51C5859029840203A627D2824D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826CBC3242A9C0518079C20AFD11F8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1429C8C9F4CB1ED937162B6E8BC05A20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1965A55DEDBBD521E35C2FD780EAE520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E03D7B6E24BE21EF48DF3DA20B3C96D /* ChenzookLocationNavigator.framework */,
+				DAADC56327E5258A751D56DE43F7A05B /* Pods_ChenzookLocationNavigator_Example.framework */,
+				FC3490CEA371A6CBE52961EEE12584AB /* Pods_ChenzookLocationNavigator_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19EBA3F4803A964F9892E2EE57CC976A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BFC0F7C6DEABB13D3804CD0711B84A5 /* ChenzookLocationNavigator.modulemap */,
+				84FCDC8C692A69A58660DA52B131268C /* ChenzookLocationNavigator.xcconfig */,
+				F07696EC65A466E1ACC5766494AA54A6 /* ChenzookLocationNavigator-dummy.m */,
+				7F57C1AFE9FC237DA054AE40818BC7DA /* ChenzookLocationNavigator-prefix.pch */,
+				A21C1A0D266CCFFDCF30DB5D990344D9 /* ChenzookLocationNavigator-umbrella.h */,
+				3F6968433A039F61B3B1B80947197F61 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ChenzookLocationNavigator";
+			sourceTree = "<group>";
+		};
+		45FDCDEBEF37E7291E7A9C34BD199617 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7005FFD65A1235B9ABAAFCA830377443 /* Pods-ChenzookLocationNavigator_Example */,
+				D88DC5319C677DE81D2EE397E68F8F7A /* Pods-ChenzookLocationNavigator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7005FFD65A1235B9ABAAFCA830377443 /* Pods-ChenzookLocationNavigator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				50CD01EF822DA2E2B9414DB205033D24 /* Info.plist */,
+				93589D8BBE785E331A0813212977A75B /* Pods-ChenzookLocationNavigator_Example.modulemap */,
+				B3B771F46AB5FCB0E317E91EA4DA541A /* Pods-ChenzookLocationNavigator_Example-acknowledgements.markdown */,
+				57044F5F04540806BB610999CE6A370F /* Pods-ChenzookLocationNavigator_Example-acknowledgements.plist */,
+				2C13A1E3BC1B5A9686DC2A138120ADD8 /* Pods-ChenzookLocationNavigator_Example-dummy.m */,
+				C60404C89A4014DB8CA7BA0B6DA3C84B /* Pods-ChenzookLocationNavigator_Example-frameworks.sh */,
+				302F8F89C3719536ECDE4A517F8A767B /* Pods-ChenzookLocationNavigator_Example-resources.sh */,
+				6CE1BE0BAEA77B8CE5C7075333104EEA /* Pods-ChenzookLocationNavigator_Example-umbrella.h */,
+				39F9BC2057A7D3FD0F9E40580FE88B46 /* Pods-ChenzookLocationNavigator_Example.debug.xcconfig */,
+				D71AF57A1496AAB3AFEB0D861A399467 /* Pods-ChenzookLocationNavigator_Example.release.xcconfig */,
+			);
+			name = "Pods-ChenzookLocationNavigator_Example";
+			path = "Target Support Files/Pods-ChenzookLocationNavigator_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EFE6335841EBD98D3F203012FDBEDBC6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1965A55DEDBBD521E35C2FD780EAE520 /* Products */,
+				45FDCDEBEF37E7291E7A9C34BD199617 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D88DC5319C677DE81D2EE397E68F8F7A /* Pods-ChenzookLocationNavigator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2947A8802AE90CB4861D4AB74FF4F561 /* Info.plist */,
+				D249A4D4B0934B0417B06281F30D4084 /* Pods-ChenzookLocationNavigator_Tests.modulemap */,
+				6F298023E931F6A521CB7D6B81483838 /* Pods-ChenzookLocationNavigator_Tests-acknowledgements.markdown */,
+				C75A2D0CD32DBF010D3E4D4B306FC356 /* Pods-ChenzookLocationNavigator_Tests-acknowledgements.plist */,
+				8DD704CB00C115E7BEDC2D6B2474413E /* Pods-ChenzookLocationNavigator_Tests-dummy.m */,
+				2143B7DCE89923085668D0B2F19CE675 /* Pods-ChenzookLocationNavigator_Tests-frameworks.sh */,
+				BBC10C276A4F16342C3F23B31DE28A34 /* Pods-ChenzookLocationNavigator_Tests-resources.sh */,
+				8925E09430367325D55A93E50A01A1F3 /* Pods-ChenzookLocationNavigator_Tests-umbrella.h */,
+				5A37EACC26551C13325E03BDD2D46547 /* Pods-ChenzookLocationNavigator_Tests.debug.xcconfig */,
+				0EFED18B3D10DA5A1B12B7297A804329 /* Pods-ChenzookLocationNavigator_Tests.release.xcconfig */,
+			);
+			name = "Pods-ChenzookLocationNavigator_Tests";
+			path = "Target Support Files/Pods-ChenzookLocationNavigator_Tests";
+			sourceTree = "<group>";
+		};
+		E229AFABE67C9A20666E6A611690C454 /* ChenzookLocationNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				2A7594FE20DF88CA00F752B2 /* Navigator.swift */,
+				AEBDE08469535D5BE4888265184B2DF1 /* NavigatorShortcut.swift */,
+				2A7594FA20DF76E500F752B2 /* Placemark.swift */,
+				2A75950020DF88F200F752B2 /* ChenzookLocationNavigator.swift */,
+				2A7594F720DF6C9000F752B2 /* AppleMaps.swift */,
+				2A75950E20DFBFA700F752B2 /* GoogleMaps.swift */,
+				2A75950C20DFBFA700F752B2 /* Waze.swift */,
+				2A75950F20DFBFA700F752B2 /* MapsWithMe.swift */,
+				2A75951820DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.swift */,
+				2A75951C20E0F5DF00F752B2 /* MaskableImageView.swift */,
+				2A75951920DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.xib */,
+				2A7594F920DF6D1600F752B2 /* Images.xcassets */,
+				EF41D2765E134FFEE801C6F8E072D24E /* Pod */,
+				19EBA3F4803A964F9892E2EE57CC976A /* Support Files */,
+			);
+			name = ChenzookLocationNavigator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EF41D2765E134FFEE801C6F8E072D24E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6667E82ABD387B83C1E81258E1EFCD6E /* ChenzookLocationNavigator.podspec */,
+				14736F0A453A697CF0AE1216AF2FF153 /* LICENSE */,
+				7FB5A3BAD0740D0B2865B3A385EDD9B4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EFE6335841EBD98D3F203012FDBEDBC6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E229AFABE67C9A20666E6A611690C454 /* ChenzookLocationNavigator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11B3DB1F364E37315EB09964E910B29B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140A2AC5F1B803AC77FA45231D3DD1CD /* Pods-ChenzookLocationNavigator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916C1002393575C3BF836EF10D46E45F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F91377E8B29CEFC99D20E0358CD367B /* ChenzookLocationNavigator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CD8E73050AAD46544AA6B5D2B1C990 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A9E22B752C04682FED5F698853478C /* Pods-ChenzookLocationNavigator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AA26B39CE99DD1AD9284814A07392E8 /* Pods-ChenzookLocationNavigator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D967E6B51AD030772966009302F45C29 /* Build configuration list for PBXNativeTarget "Pods-ChenzookLocationNavigator_Tests" */;
+			buildPhases = (
+				2C3599CBC55AF1FA2156B4E38C34D067 /* Sources */,
+				826CBC3242A9C0518079C20AFD11F8FD /* Frameworks */,
+				11B3DB1F364E37315EB09964E910B29B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11FA42E5485DACA9E4EAAD8AA904EC11 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChenzookLocationNavigator_Tests";
+			productName = "Pods-ChenzookLocationNavigator_Tests";
+			productReference = FC3490CEA371A6CBE52961EEE12584AB /* Pods_ChenzookLocationNavigator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		20A8FE273EC3921B3E9693F56A5962BE /* Pods-ChenzookLocationNavigator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D87890130CBA4FC0D96225BFEBF7EA /* Build configuration list for PBXNativeTarget "Pods-ChenzookLocationNavigator_Example" */;
+			buildPhases = (
+				D4BF9C709F23E2D551F881CDEDA39DA0 /* Sources */,
+				598EA212C260DC36B9446E1C6591D1B4 /* Frameworks */,
+				F3CD8E73050AAD46544AA6B5D2B1C990 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B80AE39FD83261A52EE6A1BAE44719C /* PBXTargetDependency */,
+			);
+			name = "Pods-ChenzookLocationNavigator_Example";
+			productName = "Pods-ChenzookLocationNavigator_Example";
+			productReference = DAADC56327E5258A751D56DE43F7A05B /* Pods_ChenzookLocationNavigator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A445BB22832C99B54A8B88933CB32D35 /* ChenzookLocationNavigator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7491088FF78E1E1A67A0943BAAC866B /* Build configuration list for PBXNativeTarget "ChenzookLocationNavigator" */;
+			buildPhases = (
+				5FC7FD6E511EDEDE48D7F57574DC6AA4 /* Sources */,
+				215BDF83CFE643BCEF040AFEBB25C5E5 /* Frameworks */,
+				2A75950220DF8D4100F752B2 /* Resources */,
+				916C1002393575C3BF836EF10D46E45F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChenzookLocationNavigator;
+			productName = ChenzookLocationNavigator;
+			productReference = 3E03D7B6E24BE21EF48DF3DA20B3C96D /* ChenzookLocationNavigator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1965A55DEDBBD521E35C2FD780EAE520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A445BB22832C99B54A8B88933CB32D35 /* ChenzookLocationNavigator */,
+				20A8FE273EC3921B3E9693F56A5962BE /* Pods-ChenzookLocationNavigator_Example */,
+				1AA26B39CE99DD1AD9284814A07392E8 /* Pods-ChenzookLocationNavigator_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A75950220DF8D4100F752B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A75951B20DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.xib in Resources */,
+				2A75950320DF8D5100F752B2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C3599CBC55AF1FA2156B4E38C34D067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1161DE108052CC5AD16A7EFF20226910 /* Pods-ChenzookLocationNavigator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC7FD6E511EDEDE48D7F57574DC6AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A75951320DFBFA800F752B2 /* MapsWithMe.swift in Sources */,
+				2A75951020DFBFA800F752B2 /* Waze.swift in Sources */,
+				2A75951A20DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.swift in Sources */,
+				2A7594FF20DF88CA00F752B2 /* Navigator.swift in Sources */,
+				2A7594FB20DF76E500F752B2 /* Placemark.swift in Sources */,
+				2A75951D20E0F5E000F752B2 /* MaskableImageView.swift in Sources */,
+				851971A8BEC0A5B8716B26B71D612C61 /* ChenzookLocationNavigator-dummy.m in Sources */,
+				39DBBAE08F0F926B18A063FFFDF3FE21 /* NavigatorShortcut.swift in Sources */,
+				2A75951220DFBFA800F752B2 /* GoogleMaps.swift in Sources */,
+				2A7594F820DF6C9000F752B2 /* AppleMaps.swift in Sources */,
+				2A75950120DF88F200F752B2 /* ChenzookLocationNavigator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4BF9C709F23E2D551F881CDEDA39DA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48FA720FB89EEA62FE842CA2D7138DB /* Pods-ChenzookLocationNavigator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11FA42E5485DACA9E4EAAD8AA904EC11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ChenzookLocationNavigator_Example";
+			target = 20A8FE273EC3921B3E9693F56A5962BE /* Pods-ChenzookLocationNavigator_Example */;
+			targetProxy = E4E3934D05A3A954B7ECC11A924992AA /* PBXContainerItemProxy */;
+		};
+		7B80AE39FD83261A52EE6A1BAE44719C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChenzookLocationNavigator;
+			target = A445BB22832C99B54A8B88933CB32D35 /* ChenzookLocationNavigator */;
+			targetProxy = 1E87A43F77BA2F86305E8FEF07B3588E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13107718EDE0136F1640DC12FE8393AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84FCDC8C692A69A58660DA52B131268C /* ChenzookLocationNavigator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChenzookLocationNavigator/ChenzookLocationNavigator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChenzookLocationNavigator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChenzookLocationNavigator/ChenzookLocationNavigator.modulemap";
+				PRODUCT_MODULE_NAME = ChenzookLocationNavigator;
+				PRODUCT_NAME = ChenzookLocationNavigator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D2F667D760161BD30D46A97CC55C6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFED18B3D10DA5A1B12B7297A804329 /* Pods-ChenzookLocationNavigator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChenzookLocationNavigator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChenzookLocationNavigator_Tests/Pods-ChenzookLocationNavigator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		440B54C0586DC88AEDCA70476131038D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F9BC2057A7D3FD0F9E40580FE88B46 /* Pods-ChenzookLocationNavigator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChenzookLocationNavigator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChenzookLocationNavigator_Example/Pods-ChenzookLocationNavigator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4C70EC52E85B0ADAB52294FA740A868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A37EACC26551C13325E03BDD2D46547 /* Pods-ChenzookLocationNavigator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChenzookLocationNavigator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChenzookLocationNavigator_Tests/Pods-ChenzookLocationNavigator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D28590FC58921C140258EC88DB279BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71AF57A1496AAB3AFEB0D861A399467 /* Pods-ChenzookLocationNavigator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChenzookLocationNavigator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChenzookLocationNavigator_Example/Pods-ChenzookLocationNavigator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F943B96A13AF2BAC11FE4054549EDB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84FCDC8C692A69A58660DA52B131268C /* ChenzookLocationNavigator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChenzookLocationNavigator/ChenzookLocationNavigator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChenzookLocationNavigator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChenzookLocationNavigator/ChenzookLocationNavigator.modulemap";
+				PRODUCT_MODULE_NAME = ChenzookLocationNavigator;
+				PRODUCT_NAME = ChenzookLocationNavigator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D87890130CBA4FC0D96225BFEBF7EA /* Build configuration list for PBXNativeTarget "Pods-ChenzookLocationNavigator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440B54C0586DC88AEDCA70476131038D /* Debug */,
+				D28590FC58921C140258EC88DB279BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7491088FF78E1E1A67A0943BAAC866B /* Build configuration list for PBXNativeTarget "ChenzookLocationNavigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F943B96A13AF2BAC11FE4054549EDB67 /* Debug */,
+				13107718EDE0136F1640DC12FE8393AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D967E6B51AD030772966009302F45C29 /* Build configuration list for PBXNativeTarget "Pods-ChenzookLocationNavigator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C70EC52E85B0ADAB52294FA740A868 /* Debug */,
+				1D2F667D760161BD30D46A97CC55C6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
