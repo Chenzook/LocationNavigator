@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ChenzookLocationNavigator'
-  s.version          = '0.6.0'
+  s.version          = '0.6.1'
   s.summary          = 'Let users choose their favorite navigator app.'
 
 # This description is used to generate tags and improve search results.
@@ -33,9 +33,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ChenzookLocationNavigator/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ChenzookLocationNavigator' => ['ChenzookLocationNavigator/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'ChenzookLocationNavigator' => ['ChenzookLocationNavigator/Assets/**/*.{imageset}']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
