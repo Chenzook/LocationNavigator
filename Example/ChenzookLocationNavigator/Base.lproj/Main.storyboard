@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="fpY-f8-SgD">
             <objects>
-                <viewController id="G3d-FO-q2k" customClass="ViewController" customModule="ChenzookMapDirector_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="G3d-FO-q2k" customClass="ViewController" customModule="ChenzookLocationNavigator_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eDE-zz-quj"/>
                         <viewControllerLayoutGuide type="bottom" id="5tf-AN-Xcz"/>
@@ -61,7 +61,7 @@
                                 <rect key="frame" x="16" y="379" width="343" height="268"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Bnw-LE-nZq">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Bnw-LE-nZq">
                                     <size key="itemSize" width="68" height="123"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>

@@ -17,4 +17,9 @@ public enum Navigator {
     public static let googleMaps = GoogleMaps()
     public static let waze = Waze()
     public static let mapsWithMe = MapsWithMe()
+    
+    public static let deafaults: [NavigatorShortcut] = [Navigator.waze,
+                                                        Navigator.googleMaps,
+                                                        Navigator.mapsWithMe,
+                                                        Navigator.appleMaps]
 }

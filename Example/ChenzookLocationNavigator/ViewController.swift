@@ -50,16 +50,9 @@ class ViewController: UIViewController {
     
     @IBAction func makeDirection(_ sender: UIButton) {
         
-        let lat = CLLocationDegrees(latidute)
-        let lng = CLLocationDegrees(longitude)
-        let coor = CLLocationCoordinate2D(latitude: lat, longitude: lng)
-        let placemark = MKPlacemark(coordinate: coor, addressDictionary: nil)
-        
-        let destination = MKMapItem(placemark: placemark)
-        destination.phoneNumber = "+989128474857"
-        destination.url = URL(string: "https://google.com")!
-        destination.name = "Peeyade Office"
-        destination.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeDriving : NSNumber(booleanLiteral: true)])
+        let actionSheet = ChenzookLocationNavigator.shared.navigatorActionSheet(place: place)
+        present(actionSheet, animated: true, completion: nil)
+
     }
 
     override func viewDidLoad() {
@@ -87,7 +80,7 @@ extension ViewController: UICollectionViewDataSource {
             return assertionFailure("Unknown cell")
         }
         
-        ChenzookLocationNavigator.navigate(to: place, using: cell.navigatorShorcut)
+        ChenzookLocationNavigator.shared.navigate(to: place, using: cell.navigatorShorcut)
     }
 }
 
