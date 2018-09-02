@@ -14,7 +14,7 @@ import UIKit
 public class NavigatorShortcutCollectionViewCell: UICollectionViewCell {
     
     public static var identifier: String { return String(describing: self) }
-    public static var nib: UINib { return UINib.init(nibName: identifier, bundle: ChenzookLocationNavigator.bundle) }
+    public static var nib: UINib { return UINib(nibName: identifier, bundle: ChenzookLocationNavigator.bundle) }
 
     public var navigatorShorcut: NavigatorShortcut! {
         didSet {

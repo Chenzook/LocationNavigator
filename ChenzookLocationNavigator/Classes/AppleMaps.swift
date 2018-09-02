@@ -14,7 +14,7 @@ import MapKit.MKMapItem
 
 public struct AppleMaps: NavigatorShortcut {
     public let name = "Apple Maps"
-    public var iconImage = UIImage.init(named: "AppleMaps", in: Bundle.init(for: ChenzookLocationNavigator.self), compatibleWith: nil)!
+    public var iconImage = UIImage(named: "AppleMaps", in: Bundle(for: ChenzookLocationNavigator.self), compatibleWith: nil)!
     
     public var urlScheme = "Maps"
     public func universalLink(destination: Placemark) -> URL {

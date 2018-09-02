@@ -13,7 +13,7 @@ import Foundation
 
 public struct Waze: NavigatorShortcut {
     public let name = "Waze"
-    public var iconImage = UIImage.init(named: "Waze", in: Bundle.init(for: ChenzookLocationNavigator.self), compatibleWith: nil)!
+    public var iconImage = UIImage(named: "Waze", in: Bundle(for: ChenzookLocationNavigator.self), compatibleWith: nil)!
     
     public var urlScheme = "waze"
     public func universalLink(destination: Placemark) -> URL {

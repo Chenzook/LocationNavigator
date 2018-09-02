@@ -13,7 +13,7 @@ import Foundation
 
 public struct MapsWithMe: NavigatorShortcut {
     public let name = "maps.me"
-    public var iconImage = UIImage.init(named: "MapsWithMe", in: Bundle.init(for: ChenzookLocationNavigator.self), compatibleWith: nil)!
+    public var iconImage = UIImage(named: "MapsWithMe", in: Bundle(for: ChenzookLocationNavigator.self), compatibleWith: nil)!
     
     public var urlScheme = "mapswithme"
     public func universalLink(destination: Placemark) -> URL {

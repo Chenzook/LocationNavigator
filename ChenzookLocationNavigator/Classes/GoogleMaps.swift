@@ -13,7 +13,7 @@ import Foundation
 
 public struct GoogleMaps: NavigatorShortcut {
     public let name = "Google Maps"
-    public var iconImage = UIImage.init(named: "GoogleMaps", in: Bundle.init(for: ChenzookLocationNavigator.self), compatibleWith: nil)!
+    public var iconImage = UIImage(named: "GoogleMaps", in: Bundle(for: ChenzookLocationNavigator.self), compatibleWith: nil)!
     
     public var urlScheme = "comgooglemaps-x-callback"
     public func universalLink(destination: Placemark) -> URL {
