@@ -60,7 +60,7 @@ public class ChenzookLocationNavigator: NSObject {
         actionSheet.view.addSubview(view)
         
         actionSheet.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-        print(actionSheet.view)
+        self.place = place
         return actionSheet
     }
     
