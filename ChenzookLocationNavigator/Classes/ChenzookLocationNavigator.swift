@@ -86,6 +86,7 @@ extension ChenzookLocationNavigator: UICollectionViewDelegate {
         guard let cell = collectionView.cellForItem(at: indexPath) as? NavigatorShortcutCollectionViewCell else {
             return assertionFailure("Unknown cell")
         }
+        cell.parentViewController?.dismiss(animated: true, completion: nil)
         ChenzookLocationNavigator.shared.navigate(to: place, using: cell.navigatorShorcut)
     }
 }

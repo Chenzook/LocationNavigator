@@ -22,6 +22,7 @@
 		2A75951A20DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75951820DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.swift */; };
 		2A75951B20DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A75951920DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.xib */; };
 		2A75951D20E0F5E000F752B2 /* MaskableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75951C20E0F5DF00F752B2 /* MaskableImageView.swift */; };
+		2ABFAC7421E082C8005563F6 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABFAC7321E082C8005563F6 /* UIViewExtension.swift */; };
 		39DBBAE08F0F926B18A063FFFDF3FE21 /* NavigatorShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBDE08469535D5BE4888265184B2DF1 /* NavigatorShortcut.swift */; };
 		793FA51C5859029840203A627D2824D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		851971A8BEC0A5B8716B26B71D612C61 /* ChenzookLocationNavigator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F07696EC65A466E1ACC5766494AA54A6 /* ChenzookLocationNavigator-dummy.m */; };
@@ -63,6 +64,7 @@
 		2A75951820DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigatorShortcutCollectionViewCell.swift; path = ChenzookLocationNavigator/Classes/NavigatorShortcutCollectionViewCell.swift; sourceTree = "<group>"; };
 		2A75951920DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NavigatorShortcutCollectionViewCell.xib; path = ChenzookLocationNavigator/Classes/NavigatorShortcutCollectionViewCell.xib; sourceTree = "<group>"; };
 		2A75951C20E0F5DF00F752B2 /* MaskableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MaskableImageView.swift; path = ChenzookLocationNavigator/Classes/MaskableImageView.swift; sourceTree = "<group>"; };
+		2ABFAC7321E082C8005563F6 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		2C13A1E3BC1B5A9686DC2A138120ADD8 /* Pods-ChenzookLocationNavigator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChenzookLocationNavigator_Example-dummy.m"; sourceTree = "<group>"; };
 		302F8F89C3719536ECDE4A517F8A767B /* Pods-ChenzookLocationNavigator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChenzookLocationNavigator_Example-resources.sh"; sourceTree = "<group>"; };
 		39F9BC2057A7D3FD0F9E40580FE88B46 /* Pods-ChenzookLocationNavigator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChenzookLocationNavigator_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 				2A75950F20DFBFA700F752B2 /* MapsWithMe.swift */,
 				2A75951820DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.swift */,
 				2A75951C20E0F5DF00F752B2 /* MaskableImageView.swift */,
+				2ABFAC7321E082C8005563F6 /* UIViewExtension.swift */,
 				2A75951920DFD64100F752B2 /* NavigatorShortcutCollectionViewCell.xib */,
 				2A7594F920DF6D1600F752B2 /* Images.xcassets */,
 				EF41D2765E134FFEE801C6F8E072D24E /* Pod */,
@@ -403,6 +406,7 @@
 				2A7594FF20DF88CA00F752B2 /* Navigator.swift in Sources */,
 				2A7594FB20DF76E500F752B2 /* Placemark.swift in Sources */,
 				2A75951D20E0F5E000F752B2 /* MaskableImageView.swift in Sources */,
+				2ABFAC7421E082C8005563F6 /* UIViewExtension.swift in Sources */,
 				851971A8BEC0A5B8716B26B71D612C61 /* ChenzookLocationNavigator-dummy.m in Sources */,
 				39DBBAE08F0F926B18A063FFFDF3FE21 /* NavigatorShortcut.swift in Sources */,
 				2A75951220DFBFA800F752B2 /* GoogleMaps.swift in Sources */,
